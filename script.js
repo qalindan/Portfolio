@@ -23,7 +23,7 @@ document.querySelectorAll('a[href^="http"], a[href^="https"]').forEach(link => {
 const sendEnquiryBtn = document.querySelector('button');
 if (sendEnquiryBtn) {
     sendEnquiryBtn.addEventListener('click', function () {
-        window.location.href = 'mailto:kalkidan@example.com?subject=Enquiry&body=Hello%20Kalkidan,%20I%20would%20like%20to%20get%20in%20touch!';
+        window.location.href = 'mailto:kalkidanbinyam83@gmail.com?subject=Enquiry&body=Hello%20Kalkidan,%20I%20would%20like%20to%20get%20in%20touch!';
     });
 }
 
